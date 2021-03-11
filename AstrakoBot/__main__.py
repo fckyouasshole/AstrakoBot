@@ -73,16 +73,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am a modular group management bot.
+Halo Ganteng {}
+INI BOT YANG SUPER GANTENG DAN SANGAT POWERFULL NYAMPE BISA NABOK PALALU, AYO TAMBAHKAN BOT INI KE GC MU KITA TAMPOL ORANG BARENG..
 
-You can find my list of available commands with /help.
+Temukan Banyak Fungsi Dengan Ketik /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a modular group management bot and help admins manage their groups. Have a look at the following for an idea of some of \
-the things I can help you with.
+Hey Ganteng! Aku Adalah *{}*.
+INI BOT YANG SUPER GANTENG DAN SANGAT POWERFULL NYAMPE BISA NABOK PALALU, AYO TAMBAHKAN BOT INI KE GC MU KITA TAMPOL ORANG BARENG.  .
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -100,7 +99,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-ASTRAKOBOT_IMG = "https://i.imgur.com/1oah5E2.jpg"
+ASTRAKOBOT_IMG = "https://telegra.ph/file/41d52e89da481db97b2da.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
@@ -222,7 +221,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add AstrakoBot to your group",
+                                text="Add MySlave",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -230,14 +229,14 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
-                                url=f"https://t.me/AstrakoBotSupport",
+                                text="Join Group",
+                                url=f"https://t.me/verylazyrich",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
+                                text="Owner Ganteng",
+                                url="https://t.me/fckyouasshole",
                             )
                         ],
                         [
